@@ -1,10 +1,11 @@
+## Adapted from Rafael A. Irizarry's Introduction to Data Science
 rm(list = ls(all = TRUE))
-library(maps)## load maps first to avoid map conflict with purrr
-library(MASS) ## load MASS and matrixStats first to avoid select and count conflict
+library(maps)  # load maps first to avoid map conflict with purrr
+library(MASS)  # load MASS and matrixStats first to avoid select and count conflict
 library(matrixStats) 
 library(tidyverse)
 
-## Adapted from Hadley Wickham and Garrett Grolemund's r4ds
+# Adapted from Hadley Wickham and Garrett Grolemund's r4ds
 options(digits = 3, width = 72, formatR.indent = 2)
 
 knitr::opts_chunk$set(
