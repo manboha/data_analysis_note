@@ -11,10 +11,10 @@ language:
 
 rmd_files: [
   "index.Rmd",
-  "intro.Rmd",
-  "01_univariate_analysis_of_a_continuous_variable.Rmd",
-  "02_univariate_analysis_of_a_categorical_variable.Rmd",
-  "03_Multivariate_analysis_of_two_continuous_variables.Rmd"
+  "intro.Rmd"
+#  "01_univariate_analysis_of_a_continuous_variable.Rmd",
+#  "02_univariate_analysis_of_a_categorical_variable.Rmd",
+#  "03_Multivariate_analysis_of_two_continuous_variables.Rmd"
 ]
 
 before_chapter_script: "_common.R"
