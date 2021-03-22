@@ -2,7 +2,7 @@
 title: "Exploratory Data Analysis Note"
 subtitle: "Exploratory Data Analysis & Visualization with R"
 author: "Manboha"
-date: "`r Sys.Date()`"
+date: "2021-03-22"
 documentclass: krantz
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
@@ -18,11 +18,7 @@ site: bookdown::bookdown_site
 always_allow_html: yes  
 ---
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'), 'packages.bib')
-```
+
 
 # Preface {.unnumbered}
 

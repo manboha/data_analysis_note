@@ -2,8 +2,9 @@
 rm(list = ls(all = TRUE))
 library(maps)  # load maps first to avoid map conflict with purrr
 library(MASS)  # load MASS and matrixStats first to avoid select and count conflict
-library(matrixStats) 
 library(tidyverse)
+
+set.seed(1004)
 
 # Adapted from Hadley Wickham and Garrett Grolemund's r4ds
 options(digits = 3, width = 72, formatR.indent = 2)
